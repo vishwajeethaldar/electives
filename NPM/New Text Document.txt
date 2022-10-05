@@ -1,0 +1,44 @@
+# NPM - Node Package Manager
+NPM is similar to play store in mobile which basically provides a way to download and install all the packeges which works with NodeJS
+
+- npm is right now acquired by Github, which was acquired by Microsoft earlier.
+- VSCode, Github, npm is now owned by Microsoft
+
+- NPM comes default with the nodejs
+
+### TO get the latest version of NPM 
+
+> npm install -g npm
+
+### Npm has two mode of operation
+1. local mode: 
+            npm installs packages into the current project directory
+2. global mode: 
+
+
+
+### To Create a New NPM Project 
+
+> npm init
+#### you can read the all questions being asked, for now, say yes to everything or you can use 
+> npm init -y
+#
+#### You will now see a package.json file
+`package.json`
+This document is all you need to know about what's required in your project.
+### --version
+### [Documentation Package.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
+
+### Installing Packages
+> ##  npm install 
+> --save / -D  = > package will be appear in your devDependencies
+
+#### For expamle
+
+> #### for example 
+> #### npm install node-tap --save-dev
+> #### or 
+> #### npm install node-tap -D
+
+### installing a barcode package 
+> npm install qrcode -g
